@@ -14,3 +14,7 @@
 
 //Animal Hierarchy - Linear - Any time you adjust the parent input, the result is incremented or decremented proportionally.
 
+//Factorial - Linear - The number entered has a direct correlation with the number of time the function recurs
+
+
+
