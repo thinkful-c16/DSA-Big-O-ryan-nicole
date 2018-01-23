@@ -11,3 +11,6 @@
 //Binary Representation - Logarithmic - because it is only increasing very slowly as you increment your numbers for your input. IE 100 has 7 ticks while 5 has 5 ticks... so it only goes up 2 ticks on an increase of 95 on the input. Additionally, the problem is cut in half each time it runs. (math.floor/2 and the %2 runs as part of each recursion)
 
 // Anagrams - Exponential - for every character added to the anagram it exponentially increases the amount of times the function has to run in order to give every variation of that word
+
+//Animal Hierarchy - Linear - Any time you adjust the parent input, the result is incremented or decremented proportionally.
+
