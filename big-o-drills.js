@@ -78,8 +78,8 @@ function generateFib(num) {
   return result;
 }
 
-//An Efficient Search - Logarithmic time O(log(n))
-
+//An Efficient Search - Logarithmic time O(log(n)) - It is cutting the current index in half each time through-- 
+//and consequently the run time is increasing slowly with each greater input. 
 function efficientSearch(array, item) {
   let minIndex = 0;
   let maxIndex = array.length - 1;
@@ -104,14 +104,16 @@ function efficientSearch(array, item) {
 }
 
 
-//Random element - O(1) Constand Time
+//Random element - O(1) Constant Time - No matter what size array is used as an argument,
+//the runtime remains the same.
 
 function findRandomElement(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
 
-//Is it prime?  - O(n) - Linear
+//Is it prime?  - O(n) - Linear - As you increase the number input, the function run time
+//directly incremenets proportionally
 
 function isPrime(n) {
   // if n is less than 2 or a decimal, it's not prime
