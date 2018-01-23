@@ -16,5 +16,6 @@
 
 //Factorial - Linear - The number entered has a direct correlation with the number of time the function recurs
 
+//Fibonacci - Constant - The number given as the argument will not change the run time of the algorithm, as the algorithm exists to perform a basic calculation
 
 
