@@ -36,9 +36,18 @@ function doubleArrayValues(array) {
 
 function naiveSearch(array, item) {
   for (let i=0; i<array.length; i++) {
-      if (array[i] === item) {
-          return i;
-      }
+    if (array[i] === item) {
+      return i;
+    }
   }
 }
 
+//Creating Pairs = 0(n^2) Polynomial
+
+function createPairs(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    for(let j = i+1; j < arr.length; j++) {
+      console.log(arr[i] + ', ' +  arr[j] );
+    }
+  }
+}
