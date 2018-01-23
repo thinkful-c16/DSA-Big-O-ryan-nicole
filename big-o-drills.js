@@ -32,7 +32,7 @@ function doubleArrayValues(array) {
   return array;
 }
 
-//Naive Search = O(n) Linear 
+//Naive Search = O(n) Linear - This size of the array that you're searching through is directly proportional to the run time
 
 function naiveSearch(array, item) {
   for (let i=0; i<array.length; i++) {
@@ -42,7 +42,7 @@ function naiveSearch(array, item) {
   }
 }
 
-//Creating Pairs = 0(n^2) Polynomial
+//Creating Pairs = 0(n^2) Polynomial - There are two levels of nested loops
 
 function createPairs(arr) {
   for (let i = 0; i < arr.length; i++) {
@@ -52,7 +52,7 @@ function createPairs(arr) {
   }
 }
 
-//Computing fibonaccis - Linear - O(n)
+//Computing fibonaccis - Linear - O(n) - The greater the number that you're inputing is directly proportional to the run time because it has to compute more in order to reach that number
 
 function generateFib(num) {
   let result = [];
