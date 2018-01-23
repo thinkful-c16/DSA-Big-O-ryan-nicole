@@ -1,6 +1,6 @@
 'use strict';
 
-//Even or Odd - O(1) Constant Time 
+//Even or Odd - O(1) Constant Time - No matter the size of the input it will take the same amount of time to execute.
 
 function isEven(value){
   if (value % 2 == 0){
@@ -10,7 +10,7 @@ function isEven(value){
     return false;
 }
 
-//Are you here? - O(n^2) Polynomial Time
+//Are you here? - O(n^2) Polynomial Time - There are two levels of nested loops
 
 function areYouHere(arr1, arr2) {
   for (let i=0; i<arr1.length; i++) {
@@ -23,7 +23,7 @@ function areYouHere(arr1, arr2) {
   return false;
 }
 
-//doubler - O(n) Linear
+//doubler - O(n) Linear - The size of in input will inrease the run time proportionally
 
 function doubleArrayValues(array) {
   for (let i=0; i<array.length; i++) {
@@ -52,7 +52,7 @@ function createPairs(arr) {
   }
 }
 
-//Computing fibonaccis - Logarithmic time O(log(n))
+//Computing fibonaccis - Linear - O(n)
 
 function generateFib(num) {
   let result = [];
