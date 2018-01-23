@@ -102,3 +102,10 @@ function efficientSearch(array, item) {
   }
   return -1;
 }
+
+
+//Random element - O(1) Constand Time
+
+function findRandomElement(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
