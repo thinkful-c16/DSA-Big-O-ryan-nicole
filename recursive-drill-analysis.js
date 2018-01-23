@@ -17,3 +17,5 @@
 //Factorial - Linear - The number entered has a direct correlation with the number of time the function recurs
 
 //Fibonacci - Exponential - The number entered causes the program's run time to increase exponentially with each increment
+
+//Traverse A & Traverse B - Linear - These functions are linear because as many child nodes as you add to the parent, the runtime increases proportionally 
